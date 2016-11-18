@@ -1,0 +1,47 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+body {
+    padding: 10px;
+    font: 13px/20px "Droid Sans",Arial,"Helvetica Neue","Lucida Grande",sans-serif;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+    background: #f00e17;
+    background: rgba(230, 60, 60, 0.95);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#info {
+    padding: 5px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+div {
+    background: rgba(230, 60, 60, 0.10);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    margin-bottom: 8px;
+}
+
+#info tbody {
+    margin-top: 2px;
+}
+
+#info tbody tr {
+    margin-top: 2px;
+}
+
+#info tbody td {
+    word-wrap:break-word;
+}
+
+#info tbody tr td:nth-child(2) {
+    padding-left: 10px;
+}
